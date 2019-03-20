@@ -1,0 +1,288 @@
+baseURL = "https://makocchi.dev/"
+languageCode = "en-us"
+title = "Makoto Hasegawa(@makocchi-git)'s portfolio"
+theme = "makocchi"
+description = "This site describes about Makoto Hasegawa(makocchi)"
+googleAnalytics = "UA-136580262-1"
+
+[author]
+  name = "Makoto Hasegawa (makocchi)"
+  homepage = "https://makocchi.dev/"
+
+[params]
+  description = "This site describes about Makoto Hasegawa(makocchi)"
+  name = "Makoto Hasegawa"
+  name_description = "Infrastructure Engineer"
+  tags = [
+    "docker",
+    "container",
+    "kubernetes",
+    "devops",
+    "infra",
+    "infrastructure",
+    "portfolio",
+    "makocchi",
+    "oss",
+    "contribute",
+    "automation",
+    "virtualization",
+    "engineer"
+  ]
+  copyright = "makocchi"
+  avatar = "img/avatar.png"
+
+# Banner
+
+[params.banner]
+  html = """
+Hi, I'm Makoto Hasegawa. <br>
+Infrastrucure engineer who is focusing on container/cloud/devops/automation/etc.
+"""
+  html_desc = """
+Working at  <a href=\"https://www.cyberagent.co.jp/en/\">CyberAgent,Inc</a> based in Tokyo, Japan.<br>
+Welcome to my portfolio!!
+"""
+  button = "About Me"
+
+# Aboutme
+
+[params.about]
+  image = "img/makocchi_facebook_profile.jpg"
+  description = """
+<h3>Education</h3>
+<ul>
+<li><span style="margin-left: 1em">03.2001</span></li>
+<li><span style="margin-left: 2em">Bachelor of Arts in Economics</li>
+<li><span style="margin-left: 2em">Statistics Seminar (2 years)</li>
+<li><span style="margin-left: 2em">Keio University, Tokyo, Japan</li>
+</ul>
+
+<h3>Work Experience</h3>
+
+<ul>
+<li><span style="margin-left: 1em">07.2012 -</span></li>
+<li><span style="margin-left: 2em; font-weight: bold;">CyberAgent, Tokyo, Japan</li>
+<li><span style="margin-left: 2em">Technical Lead Infrastructure Engineer (Advertise Technology Division)</li>
+<li><span style="margin-left: 3em">Provide technical leadership and coaching to developers and engineers.</li>
+<li><span style="margin-left: 3em">Identify computer or network equipment shortages and place orders.</li>
+<li><span style="margin-left: 3em">Develop and maintain private OpenStack cloud.</li>
+<li><span style="margin-left: 3em">Develop and maintain Kubernetes as a Service platform on private cloud.</li>
+<li><span style="margin-left: 2em">Infrastructure Engineer (New Business Unit / Ameba Division)</li>
+<li><span style="margin-left: 3em">Designing functional technology solutions.</li>
+<li><span style="margin-left: 3em">Install and configure appropriate software and functions according to specifications.</li>
+<li><span style="margin-left: 3em">Monitor performance and troubleshoot issues and outages.</li>
+</ul>
+<ul>
+<li><span style="margin-left: 1em">04.2001 - 06.2012</span></li>
+<li><span style="margin-left: 2em; font-weight: bold;">Fujisystems, Yokohama, Japan</li>
+<li><span style="margin-left: 2em">Systems Engineer</li>
+<li><span style="margin-left: 3em">Installing, configuring, testing and maintaining operating systems,</li>
+<li><span style="margin-left: 3em">application software and system management tools</li>
+<li><span style="margin-left: 3em">for ISP(Internet Service Provider) system.
+</li>
+
+</ul>
+"""
+
+[[params.social]]
+  medium = "twitter"
+  icon = "twitter"
+  link = "https://twitter.com/makocchi"
+
+[[params.social]]
+  medium = "facebook"
+  icon = "facebook"
+  link = "https://www.facebook.com/makocchi0923"
+
+[[params.social]]
+  medium = "linkedin"
+  icon = "linkedin"
+  link = "https://www.linkedin.com/in/makocchi"
+
+[[params.social]]
+  medium = "github"
+  icon = "github"
+  link = "https://github.com/makocchi-git"
+
+#[[params.social]]
+#  medium = "dribbble"
+#  icon = "dribbble"
+#  link = "#"
+
+#[[params.social]]
+#  medium = "email"
+#  icon = "envelope"
+#  link = "makocchi+portfolio@gmail.com"
+
+
+# Portfolio (Speaking / Slides)
+
+[params.portfolio]
+
+  description = """
+You can see more slides on my <a href="https://speakerdeck.com/makocchi/">speakerdeck</a> and
+my <a href="https://medium.com/@makocchi">medium writings</a> if you want.
+"""
+
+  # Portfolio column one
+  [[params.portfolio.left]]
+    title = "Japan Container Days v18.12 [Japanese] (YouTube)"
+    alt = ""
+    source = "img/makocchi_jkd_v1812.png"
+    url = "https://www.youtube.com/watch?v=F0DZmrShrmA"
+
+  [[params.portfolio.left]]
+    title = "Japan Container Days v18.04 [Japanese] (YouTube)"
+    alt = ""
+    source = "img/makocchi_jkd_v1804.png"
+    url = "https://www.youtube.com/watch?v=8jbJgI7Q6IU"
+
+  [[params.portfolio.left]]
+    title = "OpenStack Summit Vancouver 2015 (YouTube)"
+    alt = ""
+    source = "img/makocchi_openstack_breakout.png"
+    url = "https://www.youtube.com/watch?v=TRYyqr90o58"
+
+  [[params.portfolio.left]]
+    title = "OpenStack Summit Tokyo 2015 keynote (YouTube)"
+    alt = ""
+    source = "img/makocchi_openstack_keynote.png"
+    url = "https://www.youtube.com/watch?v=9jQw4US9qBY"
+
+  # Portfolio column two
+  [[params.portfolio.center]]
+    title = "About Kubernetes RuntimeClass"
+    alt = ""
+    source = "img/makocchi_k8sjp_runtimeclass.png"
+    url = "https://speakerdeck.com/makocchi/what-is-kubernetes-runtimeclass"
+  
+  [[params.portfolio.center]]
+    title = "Monitoring Kubernetes Audit Log by Falco [Japanese]"
+    alt = ""
+    source = "img/sd_falco.png"
+    url = "https://speakerdeck.com/makocchi/kubecon2018-recap-falco-deep-dive"
+  
+  [[params.portfolio.center]]
+    title = "runc だけじゃないコンテナ low level runtime 徹底比較"
+    alt = ""
+    source = "img/sd_low_level_runtime.png"
+    url = "https://speakerdeck.com/makocchi/jkd-20181205-about-low-level-runtimes"
+  
+  [[params.portfolio.center]]
+    title = "Docker だけじゃないコンテナ runtime 徹底比較"
+    alt = ""
+    source = "img/sd_docker_runtime.png"
+    url = "https://speakerdeck.com/makocchi/about-container-runtimes-japan-container-days-v18-dot-04"
+
+  # Portfolio column 3
+  [[params.portfolio.right]]
+    title = "Kubernetes に Falco を展開してアプリケーションの挙動をモニタリングする [Japanese]"
+    alt = ""
+    source = "img/medium_falco.png"
+    url = "https://medium.com/@makocchi/falco-with-kubernetes-ja-1e2c045b3840"
+  
+  [[params.portfolio.right]]
+    title = "CVE-2017-1002101 について理解する [Japanese]"
+    alt = ""
+    source = "img/medium_cve_2017_1002101.png"
+    url = "https://medium.com/@makocchi/kubernetes-cve-2017-1002101-jp-bcbeb9d21c8e"
+
+# Skills/Contribution
+
+[params.skill]
+
+  descriptions = [
+    "Experience with mission critical, 24x7 systems",
+    "Eagerness and willingness to learn new technologies",
+    "Evaluate and identify new technologies for implementation",
+    "Ability to develop software in Golang, Python",
+    "Mastery in server provisioning tools(Chef, Ansible)",
+    "Familiarity with various operating systems and platforms",
+    "Love performance tuning, improvement, balancing, usability, automation",
+    "Ability to design system architecture of public/private clouds"
+  ]
+
+  contributions = [
+    "<a href=https://github.com/kubernetes/ >Kubernetes organization</a> member (@makocchi-git)",
+    "Kubernetes sig-docs-ja core reviewer"
+  ]
+
+  [[params.skill.bars]]
+    percent = "60"
+    title = "OpenStack"
+    title_color = "ed2d4e"
+    bar_color = "ff697a"
+    comment = "5+ years"
+  
+  [[params.skill.bars]]
+    percent = "50"
+    title = "Docker"
+    title_color = "0db7ed"
+    bar_color = "68e9ff"
+    comment = "3+ years"
+  
+  [[params.skill.bars]]
+    percent = "40"
+    title = "Kubernetes"
+    title_color = "326EE6"
+    bar_color = "749cff"
+    comment = "2+ years"
+  
+  [[params.skill.bars]]
+    percent = "80"
+    title = "Linux"
+    title_color = "f4c41a"
+    bar_color = "f4c41a"
+    comment = "8+ years"
+  
+  [[params.skill.bars]]
+    percent = "60"
+    title = "Unix"
+    title_color = "d35400"
+    bar_color = "e67e22"
+    comment = "6+ years"
+ 
+# Hobby
+
+[params.hobby]
+
+  descriptions = [
+    "My hobby is playing bass guitar.",
+    "I enjoy to play the original songs at live house in Tokyo per a couple of month.",
+    "Are looking for band member? Let's play with me.",
+    "My favorite genres are Rock and Pop but I love Heavy Metal and Anime too."
+  ]
+
+  image = "img/makocchi_bass.jpg"
+
+# Contact
+
+[params.contact]
+
+  account = "makocchi+portfolio"
+  domain = "gmail.com"
+
+  [[params.contact.list]]
+     icon = "twitter"
+     service = "twitter.com"
+     account = "makocchi"
+
+  [[params.contact.list]]
+     icon = "facebook"
+     service = "www.facebook.com"
+     account = "makocchi0923"
+
+  [[params.contact.list]]
+     icon = "github"
+     service = "github.com"
+     account = "makocchi-git"
+
+  [[params.contact.list]]
+     icon = "linkedin"
+     service = "www.linkedin.com/in"
+     account = "makocchi"
+
+  [[params.contact.list]]
+     icon = "slack"
+     service = "kubernetes.slack.com"
+     account = "@makocchi"

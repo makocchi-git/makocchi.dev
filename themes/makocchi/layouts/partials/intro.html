@@ -1,0 +1,11 @@
+<section id="top" class="one dark cover">
+    <div class="container">
+        <header>
+            <h2 class="alt">{{ .Site.Params.banner.html | safeHTML }}</h2>
+            <p>{{ .Site.Params.banner.html_desc | safeHTML }}</p>
+        </header>
+        <footer>
+            <a href="#about" class="button scrolly">{{ .Site.Params.banner.button }}</a>
+        </footer>
+    </div>
+</section>

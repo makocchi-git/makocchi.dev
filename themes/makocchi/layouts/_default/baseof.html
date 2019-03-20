@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+    <head>
+        {{- partial "head.html" . -}}
+        {{- partial "seo_schema" . -}}
+    </head>
+    <body>
+        <!-- Header -->
+        {{- partial "header.html" . -}}
+
+        <!-- Main -->
+        <main role="main">
+        {{- block "main" . }}{{- end }}
+        </main>
+
+        <!-- Footer -->
+        <div id="footer">
+        {{- partial "footer.html" . -}}
+        </div>
+
+        <!-- Scripts -->
+        {{- partial "js.html" . -}}
+    </body>
+</html>

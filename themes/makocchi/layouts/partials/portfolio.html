@@ -1,0 +1,44 @@
+<section id="portfolio" class="two">
+    <div class="container">
+        <header>
+            <h2>Speakings / Slides</h2>
+        </header>
+
+        <p>{{ .Site.Params.portfolio.description | safeHTML }}</p>
+
+        <div class="row">
+
+            <div class="4u 12u$(mobile)">
+                {{ range .Site.Params.portfolio.left }}
+                <article class="item">
+                    <a href="{{ .url }}" class="image fit thumb"><img src="{{ .source }}" alt="{{ .alt }}" /></a>
+                    <header>
+                        <h3>{{ .title }}</h3>
+                    </header>
+                </article>
+                {{ end }}
+            </div>
+            <div class="4u 12u$(mobile)">
+                {{ range .Site.Params.portfolio.center }}
+                <article class="item">
+                    <a href="{{ .url }}" class="image fit thumb"><img src="{{ .source }}" alt="{{ .alt }}" /></a>
+                    <header>
+                        <h3>{{ .title }}</h3>
+                    </header>
+                </article>
+                {{ end }}
+            </div>
+            <div class="4u 12u$(mobile)">
+                {{ range .Site.Params.portfolio.right }}
+                <article class="item">
+                    <a href="{{ .url }}" class="image fit thumb"><img src="{{ .source }}" alt="{{ .alt }}" /></a>
+                    <header>
+                        <h3>{{ .title }}</h3>
+                    </header>
+                </article>
+                {{ end }}
+            </div>
+
+        </div>
+    </div>
+</section>

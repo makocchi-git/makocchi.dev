@@ -1,0 +1,22 @@
+{{ .Hugo.Generator }}
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="description" content="{{ .Site.Params.description }}">
+<meta name="author" content="makocchi">
+<link rel="icon" href="/favicon.ico">
+<script src="js/jquery.min.js"></script>
+<script>
+	$(document).ready(function(){
+		$('.skillbar').skillBars({
+			from: 0,
+			speed: 4000,
+			interval: 100,
+			decimals: 0,
+		});
+	});
+</script>
+{{ $cssmain := resources.Get "/css/main.css" }}
+{{ $cssutil := resources.Get "/css/util.css" }}
+{{ $allcss := slice $cssmain $cssutil | resources.Concat "/css/vendor.css" | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $allcss.RelPermalink }}" integrity="{{ $allcss.Data.Integrity }}">
+{{ template "_internal/google_analytics.html" . }}

@@ -1,0 +1,35 @@
+<div id="header">
+    <div class="top">
+
+        <!-- Logo -->
+        <div id="logo">
+            <span class="image avatar48"><img src="{{ .Site.Params.avatar }}" alt="{{ .Site.Params.name }}" /></span>
+            <h1 id="title">{{ .Site.Params.name }}</h1>
+            <p>{{ .Site.Params.name_description }}</p>
+        </div>
+    
+        <!-- Nav -->
+        <nav id="nav">
+            <ul>
+                <li><a href="#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Intro</span></a></li>
+                <li><a href="#about" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-user">About Me</span></a></li>
+                <li><a href="#portfolio" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Speakings / Slides</span></a></li>
+                <li><a href="#skill" id="skill-link" class="skel-layers-ignoreHref"><span class="icon fa-server">Skills / Contribution</span></a></li>
+                <li><a href="#hobby" id="hobby-link" class="skel-layers-ignoreHref"><span class="icon fa-heart">Hobby</span></a></li>
+                <li><a href="#contact" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-envelope">Contact</span></a></li>
+           </ul>
+        </nav>
+    </div>
+
+    <div class="bottom">
+        <!-- Social Icons -->
+        <ul class="icons">
+            {{ range .Site.Params.social }}
+            <li><a href="{{ .link }}" class="icon fa-{{ .icon }}"><span class="label">{{ .medium }}</span></a></li>
+            {{ end }}
+    
+        </ul>
+    
+    </div>
+</div>
+

@@ -1,0 +1,22 @@
+<section id="contact" class="four">
+    <div class="container">
+
+        <header>
+            <h2>Contact</h2>
+        </header>
+
+        <p>
+          You can drop me a line at <a href="mailto:{{ .Site.Params.contact.account }}@{{ .Site.Params.contact.domain }}"><strong>makocchi</strong>@<strong>{{ .Site.Params.contact.domain }}</strong></a>
+        </p>
+
+        <p>
+          You can find me on<br>
+          {{ range .Site.Params.contact.list }}
+          <a class="icon fa-{{ .icon }}" href="https://{{ .service }}/{{ .account }}"> {{ .service }}/<strong>{{ .account }}</strong></a><br>
+          {{ end }}
+        </p>
+
+        <h3>Feel free to connect me at any time.</h3>
+
+    </div>
+</section>

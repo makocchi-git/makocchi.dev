@@ -1,0 +1,15 @@
+<section id="about" class="three">
+    <div class="container">
+        <header>
+            <h2>About Me</h2>
+        </header>
+
+        <a href="#about" class="image featured"><img src="{{ .Site.Params.about.image }}" alt="" /></a>
+
+        <div>
+            <div class="aboutme">
+                {{ .Site.Params.about.description | safeHTML }}
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,39 @@
+<script type="application/ld+json">
+{
+    "@context" : "http://schema.org",
+    "@type" : "WebSite",
+    "url" : "{{ .Site.BaseURL }}",
+    "name" : "{{ .Site.Title }}",
+    "mainEntityOfPage": {
+         "@type": "WebPage",
+         "@id": "{{ .Site.BaseURL }}"
+    },
+    "inLanguage" : "{{ .Lang }}",
+    "author": {
+        "@type": "Person",
+        "name": "makocchi",
+        "url": "{{ .Site.BaseURL }}#about",
+        "image": "https://miro.medium.com/fit/c/192/192/1*ncGs5xPvQZG-FLNAY5W_Yw.jpeg",
+    },
+    "datePublished": "{{ .Date | safeHTML }}",
+    "dateModified" : "{{ .Date | safeHTML }}",
+    "encoding": {
+        "@type": "MediaObject"
+        "encodingFormat": "utf-8"
+    },
+    "keywords" : [ {{ if isset .Site.Params "tags" }}{{ range .Site.Params.tags }}"{{ . }}",{{ end }}{{ end }}"Blog" ]
+}
+</script>
+<script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "Person",
+    "name": "Makoto Hasegawa",
+    "url": "{{ .Site.BaseURL }}",
+    "jobTitle": "Infrastructure Engineer",
+    "alumniOf": "University of Keio",
+    "gender": "male",
+    "image": "https://miro.medium.com/fit/c/192/192/1*ncGs5xPvQZG-FLNAY5W_Yw.jpeg",
+    "sameAs": [ {{ range .Site.Params.social }}"{{ .link }}", {{ end }}"{{ .Site.BaseURL }}#about" ]
+}
+</script>

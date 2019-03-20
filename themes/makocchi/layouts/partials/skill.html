@@ -1,0 +1,40 @@
+<section id="skill" class="three">
+    <div class="container">
+
+        <header>
+            <h2>Skills / Contribution</h2>
+        </header>
+
+        <h3>Skills</h3>
+        <div>
+            <ul>
+            {{ range .Site.Params.skill.descriptions }}
+            <li>{{ . }}</li>
+            {{ end }}
+            </ul>
+        </div>
+
+        <div class="skillwrapper">
+            {{ range .Site.Params.skill.bars }}
+            <div class="skillbar" data-percent="{{ .percent }}">
+                <span class="skillbar-title" style="background: {{ .title_color }};">{{ .title }}</span>
+                <p class="skillbar-bar" style="background: #{{ .bar_color }};"></p>
+                <!-- <span class="skill-bar-percent"></span> -->
+                <span style="vertical-align: top">{{ .comment }}</span>
+            </div>
+            {{ end }}
+        </div>
+
+        <br>
+
+        <h3>Contribution</h3>
+        <div>
+            <ul>
+            {{ range .Site.Params.skill.contributions }}
+            <li>{{ . | safeHTML }}</li>
+            {{ end }}
+            </ul>
+        </div>
+
+    </div>
+</section>
