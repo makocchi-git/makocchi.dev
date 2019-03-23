@@ -4,10 +4,12 @@ title = "Makoto Hasegawa(@makocchi-git)'s portfolio"
 theme = "makocchi"
 description = "This site describes about Makoto Hasegawa(makocchi)"
 googleAnalytics = "UA-136580262-1"
+disableKinds = ["taxonomy","taxonomyTerm"]
 
 [author]
   name = "Makoto Hasegawa (makocchi)"
   homepage = "https://makocchi.dev/"
+  email = "makocchi+portfolio@gmail.com"
 
 [params]
   description = "This site describes about Makoto Hasegawa(makocchi)"
