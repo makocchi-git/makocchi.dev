@@ -13,12 +13,12 @@
         "@type": "Person",
         "name": "makocchi",
         "url": "{{ .Site.BaseURL }}#about",
-        "image": "https://miro.medium.com/fit/c/192/192/1*ncGs5xPvQZG-FLNAY5W_Yw.jpeg",
+        "image": "https://miro.medium.com/fit/c/192/192/1*ncGs5xPvQZG-FLNAY5W_Yw.jpeg"
     },
     "datePublished": "{{ .Date | safeHTML }}",
     "dateModified" : "{{ .Date | safeHTML }}",
     "encoding": {
-        "@type": "MediaObject"
+        "@type": "MediaObject",
         "encodingFormat": "utf-8"
     },
     "keywords" : [ {{ if isset .Site.Params "tags" }}{{ range .Site.Params.tags }}"{{ . }}",{{ end }}{{ end }}"Blog" ]
