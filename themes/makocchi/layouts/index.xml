@@ -7,15 +7,15 @@
     <language>{{.}}</language>{{end}}{{ with .Site.Author.email }}
     <managingEditor>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</managingEditor>{{end}}{{ with .Site.Author.email }}
     <webMaster>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</webMaster>{{end}}{{ with .Site.Copyright }}
-    <copyright>{{.}}</copyright>{{end}}{{ if not .Date.IsZero }}
-    <lastBuildDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>{{ end }}
+    <copyright>{{.}}</copyright>{{end}}
+    <lastBuildDate>{{ getenv "HUGO_BUILD_DATE" }}</lastBuildDate>
     {{ with .OutputFormats.Get "RSS" }}
         {{ printf "<atom:link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML }}
     {{ end }}
     <item>
       <title>{{ .Site.Title }}</title>
       <link>{{ .Site.BaseURL }}</link>
-      <pubDate>{{ .Site.LastChange.Format "January 2, 2006 @ 15:04 JST" | safeHTML }}</pubDate>
+      <pubDate>{{ getenv "HUGO_BUILD_DATE" }}</pubDate>
       {{ with .Site.Author.email }}<author>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</author>{{end}}
       <guid>{{ .Site.BaseURL }}</guid>
       <description>{{ with .Site.Params.description }}{{ . }}{{ end }}</description>
