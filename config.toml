@@ -130,63 +130,63 @@ my <a href="https://medium.com/@makocchi">medium writings</a> if you want.
   [[params.portfolio.left]]
     title = "Japan Container Days v18.12 [Japanese] (YouTube)"
     alt = ""
-    source = "img/makocchi_jkd_v1812.png"
+    source = "img/makocchi_jkd_v1812.jpg"
     url = "https://www.youtube.com/watch?v=F0DZmrShrmA"
 
   [[params.portfolio.left]]
     title = "Japan Container Days v18.04 [Japanese] (YouTube)"
     alt = ""
-    source = "img/makocchi_jkd_v1804.png"
+    source = "img/makocchi_jkd_v1804.jpg"
     url = "https://www.youtube.com/watch?v=8jbJgI7Q6IU"
 
   [[params.portfolio.left]]
     title = "OpenStack Summit Vancouver 2015 (YouTube)"
     alt = ""
-    source = "img/makocchi_openstack_breakout.png"
+    source = "img/makocchi_openstack_breakout.jpg"
     url = "https://www.youtube.com/watch?v=TRYyqr90o58"
 
   [[params.portfolio.left]]
     title = "OpenStack Summit Tokyo 2015 keynote (YouTube)"
     alt = ""
-    source = "img/makocchi_openstack_keynote.png"
+    source = "img/makocchi_openstack_keynote.jpg"
     url = "https://www.youtube.com/watch?v=9jQw4US9qBY"
 
   # Portfolio column two
   [[params.portfolio.center]]
     title = "About Kubernetes RuntimeClass"
     alt = ""
-    source = "img/makocchi_k8sjp_runtimeclass.png"
+    source = "img/makocchi_k8sjp_runtimeclass.jpg"
     url = "https://speakerdeck.com/makocchi/what-is-kubernetes-runtimeclass"
   
   [[params.portfolio.center]]
     title = "Monitoring Kubernetes Audit Log by Falco [Japanese]"
     alt = ""
-    source = "img/sd_falco.png"
+    source = "img/sd_falco.jpg"
     url = "https://speakerdeck.com/makocchi/kubecon2018-recap-falco-deep-dive"
   
   [[params.portfolio.center]]
     title = "runc だけじゃないコンテナ low level runtime 徹底比較"
     alt = ""
-    source = "img/sd_low_level_runtime.png"
+    source = "img/sd_low_level_runtime.jpg"
     url = "https://speakerdeck.com/makocchi/jkd-20181205-about-low-level-runtimes"
   
   [[params.portfolio.center]]
     title = "Docker だけじゃないコンテナ runtime 徹底比較"
     alt = ""
-    source = "img/sd_docker_runtime.png"
+    source = "img/sd_docker_runtime.jpg"
     url = "https://speakerdeck.com/makocchi/about-container-runtimes-japan-container-days-v18-dot-04"
 
   # Portfolio column 3
   [[params.portfolio.right]]
     title = "Kubernetes に Falco を展開してアプリケーションの挙動をモニタリングする [Japanese]"
     alt = ""
-    source = "img/medium_falco.png"
+    source = "img/medium_falco.jpg"
     url = "https://medium.com/@makocchi/falco-with-kubernetes-ja-1e2c045b3840"
   
   [[params.portfolio.right]]
     title = "CVE-2017-1002101 について理解する [Japanese]"
     alt = ""
-    source = "img/medium_cve_2017_1002101.png"
+    source = "img/medium_cve_2017_1002101.jpg"
     url = "https://medium.com/@makocchi/kubernetes-cve-2017-1002101-jp-bcbeb9d21c8e"
 
 # Skills/Contribution
