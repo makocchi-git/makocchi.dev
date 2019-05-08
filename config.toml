@@ -62,7 +62,7 @@ Welcome to my portfolio!!
 <h3>Work Experience</h3>
 
 <ul>
-<li><span style="margin-left: 1em">07.2012 -</span></li>
+<li><span style="margin-left: 1em">07.2012 - present</span></li>
 <li><span style="margin-left: 2em; font-weight: bold;">CyberAgent, Tokyo, Japan</li>
 <li><span style="margin-left: 2em">Technical Lead Infrastructure Engineer (Advertise Technology Division)</li>
 <li><span style="margin-left: 3em">Provide technical leadership and coaching to developers and engineers.</li>
@@ -80,9 +80,14 @@ Welcome to my portfolio!!
 <li><span style="margin-left: 2em">Systems Engineer</li>
 <li><span style="margin-left: 3em">Installing, configuring, testing and maintaining operating systems,</li>
 <li><span style="margin-left: 3em">application software and system management tools</li>
-<li><span style="margin-left: 3em">for ISP(Internet Service Provider) system.
-</li>
+<li><span style="margin-left: 3em">for ISP(Internet Service Provider) system.</li>
+</ul>
 
+<h3>Certificates</h3>
+
+<ul>
+<li><span style="margin-left: 1em">Certified Kubernetes Administrator (CKA-1700-0150-0100)</span></li>
+<li><span style="margin-left: 1em">Certified Kubernetes Application Developer (CKAD-1800-0005-0100)</span></li>
 </ul>
 """
 
