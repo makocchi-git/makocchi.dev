@@ -64,7 +64,7 @@ Welcome to my portfolio!!
 <ul>
 <li><span style="margin-left: 1em">07.2012 - present</span></li>
 <li><span style="margin-left: 2em; font-weight: bold;">CyberAgent, Tokyo, Japan</li>
-<li><span style="margin-left: 2em">Technical Lead Infrastructure Engineer (Advertise Technology Division)</li>
+<li><span style="margin-left: 2em">Technical Lead Infrastructure Engineer (AI Division)</li>
 <li><span style="margin-left: 3em">Provide technical leadership and coaching to developers and engineers.</li>
 <li><span style="margin-left: 3em">Identify computer or network equipment shortages and place orders.</li>
 <li><span style="margin-left: 3em">Develop and maintain private OpenStack cloud.</li>
@@ -88,6 +88,7 @@ Welcome to my portfolio!!
 <ul>
 <li><span style="margin-left: 1em">Certified Kubernetes Administrator (CKA-1700-0150-0100)</span></li>
 <li><span style="margin-left: 1em">Certified Kubernetes Application Developer (CKAD-1800-0005-0100)</span></li>
+<li><span style="margin-left: 1em">Certified Kubernetes Security Specialist (LF-e1d0w849t0)</span></li>
 </ul>
 """
 
@@ -219,28 +220,28 @@ my <a href="https://medium.com/@makocchi">medium writings</a> if you want.
     title = "OpenStack"
     title_color = "ed2d4e"
     bar_color = "ff697a"
-    comment = "5+ years"
+    comment = "7+ years"
   
   [[params.skill.bars]]
     percent = "50"
     title = "Docker"
     title_color = "0db7ed"
     bar_color = "68e9ff"
-    comment = "3+ years"
+    comment = "5+ years"
   
   [[params.skill.bars]]
     percent = "40"
     title = "Kubernetes"
     title_color = "326EE6"
     bar_color = "749cff"
-    comment = "2+ years"
+    comment = "4+ years"
   
   [[params.skill.bars]]
     percent = "80"
     title = "Linux"
     title_color = "f4c41a"
     bar_color = "f4c41a"
-    comment = "8+ years"
+    comment = "10+ years"
   
   [[params.skill.bars]]
     percent = "60"
