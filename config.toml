@@ -90,6 +90,13 @@ Welcome to my portfolio!!
 <li><span style="margin-left: 1em">Certified Kubernetes Application Developer (CKAD-1800-0005-0100)</span></li>
 <li><span style="margin-left: 1em">Certified Kubernetes Security Specialist (LF-e1d0w849t0)</span></li>
 </ul>
+
+<h3>Community</h3>
+
+<ul>
+<li><span style="margin-left: 1em">Container Runtime Meetup Organizer</span></li>
+<li><span style="margin-left: 1em">CNBF(Cloud Native Brite Future) Organizer</span></li>
+</ul>
 """
 
 [[params.social]]
