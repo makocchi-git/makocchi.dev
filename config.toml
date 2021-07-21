@@ -38,7 +38,7 @@ disableKinds = ["taxonomy","taxonomyTerm"]
 [params.banner]
   html = """
 Hi, I'm Makoto Hasegawa. <br>
-Infrastrucure engineer who is focusing on container/cloud/devops/automation/etc.
+Infrastructure engineer who is focusing on container/cloud/devops/automation/etc.
 """
   html_desc = """
 Working at  <a href=\"https://www.cyberagent.co.jp/en/\">CyberAgent,Inc</a> based in Tokyo, Japan.<br>
